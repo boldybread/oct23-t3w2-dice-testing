@@ -23,6 +23,12 @@ function rollDice(diceSize = 6){
  * @param [diceSize=6]
  * @returns A random number between 1 and a given size twice, and identifying the highest number.
  */
+/**
+ * Description placeholder
+ *
+ * @param {number} [diceSize=6]
+ * @returns {{ finalResult: any; rolls: {}; }}
+ */
 function rollDiceWithAdvantage(diceSize = 6){
 	let result = {
 		finalResult: null,
